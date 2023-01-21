@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+  #header {
+    background-color: white;
+    padding: 0px;
+    .logo {
+      width: 30%;
+      padding: 0px 20px;
+    }
+    .navbar {
+      .navmenu {
+        visibility: hidden;
+        i {
+          visibility: visible;
+          position: absolute;
+          top: 0%;
+          margin: 20px 180px;
+          font-size: 70px;
+          color: #f08080;
+        }
+      }
+    }
+  }
+  #academy {
+    text-align: center;
+    .slider {
+      overflow: hidden;
+      margin: auto;
+      span {
+        &:hover {
+          img {
+            transform: translateY(0px);
+          }
+        }
+      }
+    }
+  }
+  #bloq {
+    .img1 {
+      width: 100%;
+    }
+  }
+}
